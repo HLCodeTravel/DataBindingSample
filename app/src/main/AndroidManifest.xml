@@ -47,5 +47,9 @@
         <activity
             android:name="com.github.markzhai.sample.LambdaActivity"
             android:label="@string/demo_lambda"/>
+
+        <activity android:name=".BindTestActivity"
+            android:label="BindTest"
+            />
     </application>
 </manifest>

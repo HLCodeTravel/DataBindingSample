@@ -64,6 +64,13 @@
             android:onClick="@{presenter.onClickInjectDemo}"
             android:text="@string/change_component"/>
 
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@{@string/Binddate_test}"
+            android:onClick="@{presenter.onclickbindTestDemo}"/>
+
     </LinearLayout>
 
 </layout>
